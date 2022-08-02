@@ -1153,10 +1153,10 @@ func (g *graph) entry(pkg *pkg) {
 				// be owned by the package.
 			}
 			// This branch catches top-level functions, not methods.
-			if m.Object() != nil && m.Object().Exported() {
-				// (1.2) packages use exported functions
-				g.use(mObj, nil, edgeExportedFunction)
-			}
+			//if m.Object() != nil && m.Object().Exported() {
+			//	// (1.2) packages use exported functions
+			//	g.use(mObj, nil, edgeExportedFunction)
+			//}
 			if m.Name() == "main" && pkg.Pkg.Name() == "main" {
 				// (1.7) packages use the main function iff in the main package
 				g.use(mObj, nil, edgeMainFunction)
@@ -1467,10 +1467,10 @@ func (g *graph) typ(t types.Type, parent types.Type) {
 			g.see(t.Method(i))
 			// don't use trackExportedIdentifier here, we care about
 			// all exported methods, even in package main or in tests.
-			if t.Method(i).Exported() {
-				// (2.1) named types use exported methods
-				g.use(t.Method(i), t, edgeExportedMethod)
-			}
+			//if t.Method(i).Exported() {
+			//	// (2.1) named types use exported methods
+			//	g.use(t.Method(i), t, edgeExportedMethod)
+			//}
 			g.function(g.pkg.IR.Prog.FuncValue(t.Method(i)))
 		}
 
