@@ -3,7 +3,7 @@ package irutil
 import (
 	"go/types"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir"
 )
 
 // Terminates reports whether fn is supposed to return, that is if it

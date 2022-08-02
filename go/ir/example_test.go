@@ -16,8 +16,8 @@ import (
 	"os"
 	"strings"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/packages"
 )
@@ -50,7 +50,7 @@ func main() {
 //
 // Build and run the irdump.go program if you want a standalone tool
 // with similar functionality. It is located at
-// honnef.co/go/tools/internal/cmd/irdump.
+// github.com/Abirdcfly/go-tools/internal/cmd/irdump.
 //
 func Example_buildPackage() {
 	// Parse the source files.

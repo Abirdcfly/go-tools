@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"honnef.co/go/tools/staticcheck/fakereflect"
+	"github.com/Abirdcfly/go-tools/staticcheck/fakereflect"
 )
 
 // typeInfo holds details for the xml representation of a type.

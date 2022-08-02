@@ -2,7 +2,7 @@
 // Barring the rare false positive, any code flagged by these analyzes needs to be fixed.
 package staticcheck
 
-import "honnef.co/go/tools/analysis/lint"
+import "github.com/Abirdcfly/go-tools/analysis/lint"
 
 var Docs = lint.Markdownify(map[string]*lint.RawDocumentation{
 	"SA1000": {

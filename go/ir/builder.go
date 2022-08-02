@@ -32,8 +32,8 @@ import (
 	"go/types"
 	"os"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
 
 	"golang.org/x/exp/typeparams"
 )

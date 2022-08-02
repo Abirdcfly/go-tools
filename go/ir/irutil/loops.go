@@ -1,6 +1,6 @@
 package irutil
 
-import "honnef.co/go/tools/go/ir"
+import "github.com/Abirdcfly/go-tools/go/ir"
 
 type Loop struct{ *ir.BlockSet }
 

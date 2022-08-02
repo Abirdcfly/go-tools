@@ -1,7 +1,7 @@
 package irutil
 
 import (
-	"honnef.co/go/tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir"
 )
 
 // IsStub reports whether a function is a stub. A function is

@@ -13,7 +13,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
 
 	"golang.org/x/exp/typeparams"
 )

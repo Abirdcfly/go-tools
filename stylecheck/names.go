@@ -10,9 +10,9 @@ import (
 	"strings"
 	"unicode"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/config"
+	"github.com/Abirdcfly/go-tools/analysis/code"
+	"github.com/Abirdcfly/go-tools/analysis/report"
+	"github.com/Abirdcfly/go-tools/config"
 
 	"golang.org/x/tools/go/analysis"
 )

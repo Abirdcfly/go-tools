@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/go/buildid"
-	"honnef.co/go/tools/lintcmd/cache"
-	"honnef.co/go/tools/lintcmd/runner"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/config"
+	"github.com/Abirdcfly/go-tools/go/buildid"
+	"github.com/Abirdcfly/go-tools/lintcmd/cache"
+	"github.com/Abirdcfly/go-tools/lintcmd/runner"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"

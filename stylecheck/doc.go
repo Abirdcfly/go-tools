@@ -7,7 +7,7 @@
 // but you may want to disable additional analyzes on a case by case basis.
 package stylecheck
 
-import "honnef.co/go/tools/analysis/lint"
+import "github.com/Abirdcfly/go-tools/analysis/lint"
 
 var Docs = lint.Markdownify(map[string]*lint.RawDocumentation{
 	"ST1000": {

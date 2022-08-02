@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/go/ast/astutil"
+	"github.com/Abirdcfly/go-tools/analysis/facts/generated"
+	"github.com/Abirdcfly/go-tools/go/ast/astutil"
 
 	"golang.org/x/tools/go/analysis"
 )

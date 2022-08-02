@@ -13,10 +13,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/analysis/code"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir/irutil"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
 
 	"golang.org/x/tools/go/analysis"
 )

@@ -16,9 +16,9 @@ import (
 	"fmt"
 	"go/types"
 
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/staticcheck/fakereflect"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/knowledge"
+	"github.com/Abirdcfly/go-tools/staticcheck/fakereflect"
 )
 
 func Marshal(v types.Type) error {

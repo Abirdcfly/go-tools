@@ -16,10 +16,10 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/knowledge"
+	"github.com/Abirdcfly/go-tools/staticcheck/fakereflect"
 	"golang.org/x/exp/typeparams"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/knowledge"
-	"honnef.co/go/tools/staticcheck/fakereflect"
 )
 
 // parseTag splits a struct field's json tag into its name and

@@ -5,7 +5,7 @@ import (
 	"go/ast"
 	"go/format"
 
-	"honnef.co/go/tools/pattern"
+	"github.com/Abirdcfly/go-tools/pattern"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

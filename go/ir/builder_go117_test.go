@@ -15,8 +15,8 @@ import (
 	"go/types"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir/irutil"
 )
 
 func TestBuildPackageGo117(t *testing.T) {

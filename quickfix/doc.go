@@ -6,7 +6,7 @@
 // None of these analyzes should fail a build, and they are likely useless in CI as a whole.
 package quickfix
 
-import "honnef.co/go/tools/analysis/lint"
+import "github.com/Abirdcfly/go-tools/analysis/lint"
 
 var Docs = lint.Markdownify(map[string]*lint.RawDocumentation{
 	"QF1001": {

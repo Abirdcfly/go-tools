@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir"
 
 	"golang.org/x/tools/go/analysis/analysistest"
 	//lint:ignore SA1019 go/loader is deprecated, but works fine for our tests

@@ -1,12 +1,12 @@
 package simple
 
 import (
+	"github.com/Abirdcfly/go-tools/analysis/facts/generated"
+	"github.com/Abirdcfly/go-tools/analysis/facts/purity"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/internal/passes/buildir"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/purity"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
 )
 
 var Analyzers = lint.InitializeAnalyzers(Docs, map[string]*analysis.Analyzer{

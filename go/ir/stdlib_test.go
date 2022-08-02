@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/packages"
 )

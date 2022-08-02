@@ -6,14 +6,14 @@ import (
 	"regexp"
 	"sort"
 
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/config"
+	"github.com/Abirdcfly/go-tools/quickfix"
+	"github.com/Abirdcfly/go-tools/simple"
+	"github.com/Abirdcfly/go-tools/staticcheck"
+	"github.com/Abirdcfly/go-tools/stylecheck"
+	"github.com/Abirdcfly/go-tools/unused"
 	"github.com/BurntSushi/toml"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/quickfix"
-	"honnef.co/go/tools/simple"
-	"honnef.co/go/tools/staticcheck"
-	"honnef.co/go/tools/stylecheck"
-	"honnef.co/go/tools/unused"
 )
 
 func main() {

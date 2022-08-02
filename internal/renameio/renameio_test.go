@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"honnef.co/go/tools/internal/robustio"
+	"github.com/Abirdcfly/go-tools/internal/robustio"
 )
 
 func TestConcurrentReadsAndWrites(t *testing.T) {

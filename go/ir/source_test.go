@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/Abirdcfly/go-tools/go/ast/astutil"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/analysis/analysistest"
 	"golang.org/x/tools/go/expect"

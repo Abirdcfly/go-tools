@@ -14,8 +14,8 @@ import (
 	"io"
 	"os"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/go/ast/astutil"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
 )
 
 //// AST utilities

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"honnef.co/go/tools/internal/renameio"
+	"github.com/Abirdcfly/go-tools/internal/renameio"
 )
 
 // An ActionID is a cache action key, the hash of a complete description of a

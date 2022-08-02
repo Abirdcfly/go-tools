@@ -1,12 +1,12 @@
 package stylecheck
 
 import (
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
+	"github.com/Abirdcfly/go-tools/analysis/facts/generated"
+	"github.com/Abirdcfly/go-tools/analysis/facts/tokenfile"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/config"
+	"github.com/Abirdcfly/go-tools/internal/passes/buildir"
+	"github.com/Abirdcfly/go-tools/internal/sharedcheck"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

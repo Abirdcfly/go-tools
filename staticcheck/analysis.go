@@ -1,14 +1,14 @@
 package staticcheck
 
 import (
-	"honnef.co/go/tools/analysis/facts/deprecated"
-	"honnef.co/go/tools/analysis/facts/generated"
-	"honnef.co/go/tools/analysis/facts/nilness"
-	"honnef.co/go/tools/analysis/facts/purity"
-	"honnef.co/go/tools/analysis/facts/tokenfile"
-	"honnef.co/go/tools/analysis/facts/typedness"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Abirdcfly/go-tools/analysis/facts/deprecated"
+	"github.com/Abirdcfly/go-tools/analysis/facts/generated"
+	"github.com/Abirdcfly/go-tools/analysis/facts/nilness"
+	"github.com/Abirdcfly/go-tools/analysis/facts/purity"
+	"github.com/Abirdcfly/go-tools/analysis/facts/tokenfile"
+	"github.com/Abirdcfly/go-tools/analysis/facts/typedness"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

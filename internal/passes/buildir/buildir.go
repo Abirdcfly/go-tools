@@ -15,7 +15,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/ir"
 
 	"golang.org/x/tools/go/analysis"
 )

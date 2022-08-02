@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"go/types"
 
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
 
 	"golang.org/x/exp/typeparams"
 )

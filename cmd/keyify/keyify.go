@@ -16,8 +16,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/lintcmd/version"
+	"github.com/Abirdcfly/go-tools/go/ast/astutil"
+	"github.com/Abirdcfly/go-tools/lintcmd/version"
 
 	"golang.org/x/tools/go/buildutil"
 

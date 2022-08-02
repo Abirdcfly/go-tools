@@ -6,9 +6,9 @@ import (
 	"go/types"
 	"reflect"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/Abirdcfly/go-tools/go/ir"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 )

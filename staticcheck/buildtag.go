@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"strings"
 
-	"honnef.co/go/tools/go/ast/astutil"
+	"github.com/Abirdcfly/go-tools/go/ast/astutil"
 )
 
 func buildTags(f *ast.File) [][]string {

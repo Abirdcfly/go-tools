@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strings"
 
-	"honnef.co/go/tools/pattern"
+	"github.com/Abirdcfly/go-tools/pattern"
 )
 
 func match(fset *token.FileSet, pat pattern.Pattern, f *ast.File) {

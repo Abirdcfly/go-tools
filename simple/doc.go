@@ -3,7 +3,7 @@
 // and following their advice is recommended.
 package simple
 
-import "honnef.co/go/tools/analysis/lint"
+import "github.com/Abirdcfly/go-tools/analysis/lint"
 
 var Docs = lint.Markdownify(map[string]*lint.RawDocumentation{
 	"S1000": {

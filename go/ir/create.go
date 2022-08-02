@@ -15,7 +15,7 @@ import (
 	"os"
 	"sync"
 
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/Abirdcfly/go-tools/go/types/typeutil"
 )
 
 // measured on the standard library and rounded up to powers of two,

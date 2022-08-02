@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"text/tabwriter"
 
-	"honnef.co/go/tools/analysis/lint"
+	"github.com/Abirdcfly/go-tools/analysis/lint"
 )
 
 func shortPath(path string) string {
